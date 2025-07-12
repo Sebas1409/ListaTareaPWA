@@ -15,13 +15,14 @@ return(
     <div className="container">
         <h1> Lista de Tareas</h1>
         <div className="form">
-            <input value="{input}" onChange={(e)=>setInput(e.target.value)} placeholder="Nueva Tarea" />
-                <button onClick="{addTask}">Agregar</button>
+            <input value={input} onChange={(e) => setInput(e.target.value)} placeholder="Nueva Tarea" />
+            <button onClick={addTask}>Agregar</button>
+
         </div>
         <ul>
-            {tasks.map((t,i)=>{
+            {tasks.map((t, i) => (
                 <li key={i}>{t}</li>
-            })}
+            ))}
         </ul>
     </div>
 );
