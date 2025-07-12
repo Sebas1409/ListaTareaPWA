@@ -1,0 +1,15 @@
+{
+    "shot_name": "Tareas",
+    "name": "Lista de Tareas PWA",
+    "icons":[
+        {
+        "src": "icon-192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+        }
+    ],
+    "start_url":".",
+    "display": "standalone",
+    "theme_color":"#2196f3",
+    "background_color":"#ffffff"
+}
